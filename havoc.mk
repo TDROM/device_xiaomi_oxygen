@@ -23,7 +23,7 @@ TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Product Config
-PRODUCT_NAME := aosp_oxygen
+PRODUCT_NAME := havoc_oxygen
 BOARD_VENDOR := Xiaomi
 
 # Extra Essential Gapps
