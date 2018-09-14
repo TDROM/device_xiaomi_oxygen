@@ -17,13 +17,13 @@
 $(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 
 # Inherit some common PEX stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 GAPPS_VARIANT := nano
 TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Product Config
-PRODUCT_NAME := havoc_oxygen
+PRODUCT_NAME := liquid_oxygen
 BOARD_VENDOR := Xiaomi
 
 # Extra Essential Gapps
